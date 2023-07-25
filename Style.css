@@ -1,11 +1,19 @@
 html{
     background-color: black;
     height: auto;
+    
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Barlow&family=Fira+Sans:wght@300&family=Inconsolata:wght@300;400&family=Lora&family=Raleway:wght@100;200;300&family=Red+Hat+Mono:wght@300&family=Roboto:wght@300&display=swap');
 body{
     background-color: black;
     height: auto;
 }
+/* hr{
+    color:rgb(0, 0, 0);
+    background-color: black;
+    
+} */
 .navbar{
     position: fixed !important;
     width: 100%;
@@ -13,43 +21,55 @@ body{
 header{
     background-color: black;
     color: rgb(255, 255, 255);
-    height: 600px;
+    height: 650px;
     text-align: center;
     margin-top: 0px;
 }
 h1{
-    
+    font-family: 'Abril Fatface', serif;
     text-align: center;
-    padding-top: 190px;
-}
-h2{
-    padding-top: 10px;
+    padding-top: 260px;
+    
     
 }
-.Sección1{
-    height: 600px;
+h4{
+    padding-top: 10px;
+    font-family: 'Lora', sans-serif;
+    width: 50%;
+    margin-left: 25%;
+    
+    
+}
+/* SOBRE MÍ */
+
+.Sobremi{
+    height: 630px;
     padding-bottom: 30px;
     
 }
-.titulo{
+.sobremiTitulo{
     padding-top: 60px;
     text-align: right;
     margin-right: 25%;
+    font-family: 'Abril Fatface', serif;
     
 }
 .fotoperfil{
     width: 100%;
     margin-left: 0%;
     padding-left: 0%;
-    padding-top: 20px;
+    padding-top: 5px;
 }
-.sobremi{
+.Txtsobremi{
     font-size: medium;
     width: 95%;
     text-align: justify;
-    padding-top: 100px;
+    padding-top: 80px;
 }
-.Sección2{
+
+/* SERVICIOS */
+
+.Servicios{
     height: 650px;
     /* padding-top: 50px; */
     background-color: black;
@@ -59,17 +79,65 @@ h2{
     text-align: left;
     margin-left: 100px;
     padding-top: 100px;
+    font-family: 'Abril Fatface', serif;
 }
 .ServText{
     width: 50%;
     margin-left: 100px;
 
 }
-.Sección3{
-    height: 600px;
+
+/* PORTFOLIO */
+
+.Portfolio{
+    height: 1000px;
     padding-top: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.portTitulo{
+    font-family: 'Abril Fatface', serif;
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.col{
+    padding-top: 50px;
+    
+}
+.card{
+    
+    border-color: black;
+}
+.card-body{
+    
+    border-radius: 10px;
+    background-color:rgb(0, 0, 0);
+   
+}
+.card-text{
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+}
+/* OTROS PROYECTOS */
+.Proyectos{
+    background-color: black;
+    height: 600px;
+}
+/* CONTACTO */
+.Contacto{
+    height: 600px;
+    background-color:white;
+}
+.contactTitulo{
+    
+    padding-top: 100px;
+    padding-left: 50px;
+    
+    font-family: 'Abril Fatface', serif;
     color: black;
+    
 }
 @media screen and (max-width:1000px) {
     .navbar{
